@@ -1,5 +1,11 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+}
+
 div.ui.segment {
     height: 100%;
+    padding-top: 8%;
 }
 
 div.ui.vertical.menu {
@@ -15,11 +21,16 @@ div.ui.vertical.menu .item {
 div.ui.vertical.menu div.item div.header {
     font-size: 1.2em;
     color: black;
+    font-weight: 700;
 }
 
 #zac-menu {
     margin-left: 10%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    margin-bottom: 10%;
+}
+
+#zac-top-menu {
     margin-bottom: 10%;
 }
 
