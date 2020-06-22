@@ -1,0 +1,34 @@
+div.ui.segment {
+    height: 100%;
+}
+
+div.ui.vertical.menu {
+    border: none;
+    box-shadow: none;
+}
+
+div.ui.vertical.menu .item {
+    box-shadow: none;
+    border: none;
+}
+
+div.ui.vertical.menu div.item div.header {
+    font-size: 1.2em;
+    color: black;
+}
+
+#zac-menu {
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#zac-title {
+    margin-bottom: 2rem;
+}
+
+#zac-projects {
+    margin-top: 2em;
+    margin-bottom: 2em
+}
+
