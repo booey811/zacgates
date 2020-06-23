@@ -3,6 +3,35 @@ body {
     font-weight: 300;
 }
 
+#menu-section {
+    align-self: center;
+}
+
+#photo-section {
+    text-align: center;
+
+}
+
+
+
+div#next-image, div#prev-image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    display: block;
+}
+
+#next-image {
+    right: 0;
+    cursor: e-resize;
+}
+
+#prev-image {
+    left: 0;
+    cursor: w-resize;
+}
+
 div.ui.segment {
     height: 100%;
     padding-top: 8%;
@@ -24,10 +53,41 @@ div.ui.vertical.menu div.item div.header {
     font-weight: 700;
 }
 
+div.item.slide {
+    display: none;
+    animation-name: fadeout;
+    animation-duration: 0.8s;
+}
+
+div.item.slide.show {
+    display: inline-block;
+    animation-name: fadein;
+    animation-duration: 0.8s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
 #zac-menu {
-    margin-left: 10%;
-    /* margin-top: 10%; */
-    margin-bottom: 10%;
+    margin: auto auto auto 30%;
+    text-justify: left;
 }
 
 #zac-top-menu {

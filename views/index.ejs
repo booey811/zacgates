@@ -25,19 +25,37 @@
 
             <div class="ui stackable two column grid">
 
-                <div class="four wide column">>
+                <div id="menu-section" class="four wide column">
 
                     <div id="zac-menu"><%- include("partials/menu") %></div>
 
                 </div>
 
-                <div class="twelve wide column">
+                <div class="twelve wide column" id="photo-section">
 
-                    <div class="item">
-                        <div class="image">
-                            <img src="https://images.unsplash.com/photo-1519575396444-2e78bc5f4afc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80" alt="" class="ui image">
+                    <div class="ui huge images">
+                        <div class="item slide">
+                            <div class="ui image">
+                                <img class="ui large image" src="https://images.unsplash.com/photo-1519575396444-2e78bc5f4afc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80" alt="" class="ui image">
+                            </div>
+                        </div>
+
+                        <div class="item slide">
+                            <div class="ui image">
+                                <img class="ui large image" src="https://images.unsplash.com/photo-1524017718360-1c269e42276b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=809&q=80" alt="" class="ui image">
+                            </div>
+                        </div>
+
+                        <div class="item slide">
+                            <div class="ui image">
+                                <img class="ui large image" src="https://images.unsplash.com/photo-1521755310030-0317ef9a73a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=783&q=80" alt="" class="ui image">
+                            </div>
                         </div>
                     </div>
+
+                    <div id="next-image" onclick="tester()"></div>
+                    <div id="prev-image" onclick="tester()"></div>
+
                 </div>
 
             </div>
