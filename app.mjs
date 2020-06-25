@@ -22,9 +22,9 @@ app.get("/", function(req, res){
     res.render("index")
 });
 
-
-app.get("/project1", function(req, res){
-    res.render("project1")
+// Lockdown Project
+app.get("/lockdown", function(req, res){
+    res.render("lockdown")
 });
 
 

@@ -34,7 +34,6 @@ div#next-image, div#prev-image {
 
 div.ui.segment {
     height: 100%;
-    padding-top: 8%;
 }
 
 div.ui.vertical.menu {
@@ -53,13 +52,15 @@ div.ui.vertical.menu div.item div.header {
     font-weight: 700;
 }
 
-div.item.slide {
+div.ui.huge.images img.ui.image.item.slide {
     display: none;
     animation-name: fadeout;
     animation-duration: 0.8s;
+    height: 60%;
+    width: 60%;
 }
 
-div.item.slide.show {
+div.ui.huge.images img.ui.image.item.slide.show {
     display: inline-block;
     animation-name: fadein;
     animation-duration: 0.8s;
